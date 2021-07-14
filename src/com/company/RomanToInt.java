@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Main {
+public class RomanToInt {
 
     public static void main(String[] args) {
         System.out.println(romanToInt("MCMXCIV"));
