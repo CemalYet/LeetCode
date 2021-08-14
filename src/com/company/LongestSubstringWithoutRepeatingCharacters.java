@@ -19,7 +19,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
             if (!dummy.contains(s.charAt(i))){
                 dummy.add(s.charAt(i));
                 max=Math.max(max,i-j+1);
-                i++;
+               // i++;
 
             }else{
                 dummy.remove(s.charAt(j));
