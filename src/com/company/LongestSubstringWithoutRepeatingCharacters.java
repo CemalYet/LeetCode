@@ -10,7 +10,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
     public static int lengthOfLongestSubstring(String s){
         Set<Character> dummy=new HashSet<>();
-       //ArrayList<Character> dummy=new ArrayList<>();
+       //List<Character> dummy=new ArrayList<>();
         int i=0;
         int j=0;
         int max=0;
@@ -22,7 +22,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
                // i++;
 
             }else{
-                dummy.remove(s.charAt(j));
+                //dummy.remove(s.charAt(j));
                 //dummy.remove(dummy.get(0));
                 j++;
             }
