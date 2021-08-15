@@ -1,6 +1,14 @@
 # Project exclude paths
 /out/
-out/
+
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
 .idea/
 .idea_modules/
 *.iml
