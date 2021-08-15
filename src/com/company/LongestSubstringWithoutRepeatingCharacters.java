@@ -22,7 +22,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
                // i++;
 
             }else{
-                //dummy.remove(s.charAt(j));
+                dummy.remove(s.charAt(j));
                 //dummy.remove(dummy.get(0));
                 j++;
             }
